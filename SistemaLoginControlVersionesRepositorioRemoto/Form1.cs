@@ -15,6 +15,7 @@ namespace SistemaLoginControlVersionesRepositorioRemoto
         public Form1()
         {
             InitializeComponent();
+            Conection.OpenConnection();
         }
     }
 }

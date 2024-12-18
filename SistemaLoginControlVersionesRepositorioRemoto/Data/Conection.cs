@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
-using System.Data;
 using System.Windows.Forms;
 
-namespace SistemaLoginControlVersionesRepositorioRemoto
+namespace SistemaLoginControlVersionesRepositorioRemoto.Data
 {
     internal class Conection
     {
@@ -38,5 +38,5 @@ namespace SistemaLoginControlVersionesRepositorioRemoto
         }
 
 
-    }   
+    }
 }
